@@ -1,0 +1,51 @@
+body {
+
+}
+
+main {
+	background-color: red;
+	margin: 0px auto;
+	max-width: 800px;
+}
+
+section{
+	margin: 0px;
+}
+
+.sectiontitle, .imageholder{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img{
+	display: inline-block;
+	height: 200px;
+	width: 300px;
+	float: left;
+	margin: 20px;
+}
+
+h3{
+	padding: 20px;
+	border-bottom: solid;
+	border-bottom-color: rgb(150,150,150);
+	border-bottom-width: 5px;
+	width: 400px;
+	text-align: center;
+}
+
+#summary{
+	background-color: rgb(190,190,190);
+	color: white;
+}
+
+#portfolio{
+	background-color: rgb(240,240,240);
+	color: rgb(150,150,150);
+}
+
+#contact{
+	background-color: rgb(240,240,240);
+	color: rgb(150,150,150);
+}
